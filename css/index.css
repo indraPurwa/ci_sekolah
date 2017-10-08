@@ -1,0 +1,200 @@
+body {
+  background-color: #d6d4d4;
+}
+.top-header {
+  background-color: orange;
+  height: 150px;
+}
+.content {
+  background-color: white;
+  box-shadow: 1px 2px 10px #6C6A6A;
+  box-sizing: border-box;
+}
+.navigasi {
+  border: 1px 0 solid black;
+}
+div#navbar-collapse {
+    border-color: black;
+    border-bottom: 3px solid black;
+    background-color: black;
+}
+.navbar-default .navbar-nav > li > a {
+    color: white;
+    font-weight: bold;
+}
+.navbar-default .navbar-nav > li > a:hover {
+    color: #2C57FE;
+    font-weight: bold;
+}
+
+.carousel.slide .carousel-inner img{
+  width: 100%;
+  height: 400px;
+}
+a.carousel-control {
+    width: 40px;
+    height: 40px;
+    top: 170px;
+    border-radius: 30px;
+    background: black;
+}
+span.glyphicon.glyphicon-menu-left {
+    top: 10px;
+}
+span.glyphicon.glyphicon-menu-right {
+    top: 10px;
+}
+.header.berita {
+    margin-top: 15px;
+    border-radius: 70px 0;
+    width: 240px;
+    padding-left: 30px;
+    font-weight: bold;
+    color: white;
+}
+.header.page {
+  border-radius: 70px 0;
+  width: 100%;
+  padding-left: 30px;
+  font-weight: bold;
+  color: white;
+}
+.header {
+  background-color: #6672FB;
+  color: white;
+  padding: 5px 0;
+  border-bottom: 2px solid black;
+  border-radius: 30px 0px;
+  padding-left: 20px;
+  font-weight: bold;
+}
+
+form.form-horizontal {
+  padding: 10px 5px;
+}
+.col-md-12.list-berita {
+    border-bottom: 1px solid black;
+    padding: 10px 15px;
+}
+.col-md-12.list-berita a {
+  color: #040404;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 5px 0;
+}
+.col-md-12.list-berita a:hover, .col-md-12.list-berita a:focus {
+    color: #03F;
+    text-decoration: none;;
+}
+.footer {
+    background-color: black;
+    color: white;
+    height: 120px;
+    text-align: center;
+    padding-top: 50px;
+}
+.caption {
+  padding: 0 25px;
+}
+.row.angkatan {
+  margin-bottom: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+hr {
+  border-top: 1px solid #000;
+}
+.label {
+  font-size: 100%;
+}
+.col-md-12.berita p{
+  text-align: justify;
+  text-indent: 30px;
+  margin: 5px 15px;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    color: blue;
+    text-decoration: none;
+}
+.dropdown {
+
+}
+.my-dropdown-menu {
+	padding:0;
+	margin:0;
+	list-style-type:none;
+	opacity:0;
+	visibility:hidden;
+	position:absolute;
+	top:50px;
+	left:0;
+	z-index:1000;
+	background:#666;
+	border-radius:5px;
+}
+ul.navbar-nav li:hover > ul {
+	visibility:visible;
+	opacity:1;
+}
+.my-dropdown-menu a {
+  padding: 10px 15px;
+  margin-right: 15px;
+	color:#FFF;
+	width:100%;
+	display:block;
+	white-space:nowrap;
+	float:none;
+	border-bottom: 1px solid black;
+}
+.my-dropdown-menu a:hover {
+	background:#03F;
+}
+.content p {
+  text-align: justify;
+}
+
+//calender
+table.calendar{border-style: solid; border-width: 1px; border-width:1px; border-color:#666; -moz-box-shadow:0px 0px 4px #CCCCCC; -webkit-box-shadow:0px 0px 4px #CCCCCC; box-shadow:0px 0px 4px #CCCCCC; }
+tr.calendar-row  {  }
+td.header_kal{font-weight:bold; text-shadow:0px 1px 0px #FFF;color:#666; text-align:center; width:40px; padding:12px 6px; border-bottom:1px solid #CCC; background: #ffffff;}
+td.calendar-day  { min-height:20px; position:relative; } * html div.calendar-day { height:30px; }
+td.calendar-day:hover  { background:#FFF; -moz-box-shadow:0px 0px 20px #eeeeee inset; -webkit-box-shadow:0px 0px 20px #eeeeee inset; box-shadow:0px 0px 20px #eeeeee inset; cursor:pointer;}
+td.calendar-day-np  { background:#eee; min-height:80px; } * html div.calendar-day-np { height:80px; }
+td.calendar-day-head {font-weight:bold; text-shadow:0px 1px 0px #FFF;color:#666; text-align:center; width:64px; padding:12px 6px; border-bottom:1px solid #CCC; border-top:1px solid #CCC; border-right:1px solid #CCC; background: #ffffff;
+background: -moz-linear-gradient(top,  #ffffff 0%, #ededed 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#ededed));
+background: -webkit-linear-gradient(top,  #ffffff 0%,#ededed 100%);
+background: -o-linear-gradient(top,  #ffffff 0%,#ededed 100%);
+background: -ms-linear-gradient(top,  #ffffff 0%,#ededed 100%);
+background: linear-gradient(to bottom,  #ffffff 0%,#ededed 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed',GradientType=0 );
+}
+div.day-number{padding:6px; text-align:center; }
+/* shared */
+td.calendar-day, td.calendar-day-np {padding:1px; border-bottom:1px solid #DBDBDB; border-right:1px solid #DBDBDB; font-size:12px;background: #ffffff;
+background: -moz-linear-gradient(top,  #ffffff 0%, #f2f2f2 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#f2f2f2));
+background: -webkit-linear-gradient(top,  #ffffff 0%,#f2f2f2 100%);
+background: -o-linear-gradient(top,  #ffffff 0%,#f2f2f2 100%);
+background: -ms-linear-gradient(top,  #ffffff 0%,#f2f2f2 100%);
+background: linear-gradient(to bottom,  #ffffff 0%,#f2f2f2 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f2f2f2',GradientType=0 );
+}
+
+
+.overday{ color:#164b87; text-shadow:0px 1px 0px #FFF;}
+.currentday{background: #6cb7f3 !important;
+background: -moz-linear-gradient(top,  #6cb7f3 0%, #388be8 100%) !important;
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#6cb7f3), color-stop(100%,#388be8)) !important;
+background: -webkit-linear-gradient(top,  #6cb7f3 0%,#388be8 100%) !important;
+background: -o-linear-gradient(top,  #6cb7f3 0%,#388be8 100%) !important;
+background: -ms-linear-gradient(top,  #6cb7f3 0%,#388be8 100%) !important;
+background: linear-gradient(to bottom,  #6cb7f3 0%,#388be8 100%) !important;
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6cb7f3', endColorstr='#388be8',GradientType=0 ) !important; color:#FFF  !important; font-weight:bold; -moz-box-shadow:0px 0px 18px #1F68BA inset; -webkit-box-shadow:0px 0px 18px #1F68BA inset; box-shadow:0px 0px 18px #1F68BA inset;
+}
+.currentday:hover{-moz-box-shadow:0px 0px 24px #074080 inset !important; -webkit-box-shadow:0px 0px 24px #074080 inset !important; box-shadow:0px 0px 24px #074080 inset !important;}

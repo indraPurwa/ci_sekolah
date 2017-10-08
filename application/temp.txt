@@ -1,0 +1,17 @@
+$siswa = array(
+  'nisn'=> $siswa->nisn,
+  'nama'=> $this->input->post('nama'),
+  'tl'=> $this->input->post('tl'),
+  'tgl'=> date('Y-m-d', strtotime($_POST['tgl'])),
+  'nama_ortu'=> $this->input->post('nama_ortu'),
+  'alamat'=> $this->input->post('alamat'),
+  'jk'=> $this->input->post('jk'),
+  'agama'=> $this->input->post('agama'),
+  'no_ktp'=> $this->input->post('no_ktp'),
+  'foto'=> $foto,
+  'tgl_masuk'=> date('Y-m-d', strtotime($_POST['tgl_masuk'])),
+  'no_hp'=> $this->input->post('no_hp'),
+  'pekerjaan'=> $this->input->post('pekerjaan'),
+);
+$this->mod_siswa->update($nisn, $siswa);
+redirect('kelola_siswa/data_siswa/update_success');
